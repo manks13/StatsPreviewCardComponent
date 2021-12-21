@@ -98,13 +98,17 @@ span {
 }
 
 @media (max-width: 978px) {
+    .body{
+        min-height: 72%;
+    }
+
     .main {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 390px;
-        height: 80%;
+        width: 350px;
+        height: 72%;
     }
 
     .info-card {
